@@ -6,7 +6,7 @@ resource "ibm_compute_vm_instance" "classic_vsi" {
   hostname   = var.hostname
   domain     = var.domain
 
-  os_reference_code    = "DEBIAN_8_64"
+  os_reference_code    = "UBUNTU_24_64"
   datacenter           = "dal13"
   network_speed        = 100
   hourly_billing       = true
